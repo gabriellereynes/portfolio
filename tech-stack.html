@@ -5,9 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Stack</title>
-  <!--<link rel="stylesheet" href="style.css"> -->
   <script src="https://cdn.tailwindcss.com"></script>
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Archivo', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
 <body class="bg-black text-white">
@@ -51,15 +64,119 @@
       <!-- SECTION BORDER BOX -->
       <div class="border border-gray-700 p-6 md:p-10 rounded-lg">
 
-        <h2 class="text-3xl mb-10 font-bold">Tech Stack</h2>
+        <h2 class="text-3xl mb-8 font-bold">Tech Stack</h2>
+
+        <div class="space-y-10">
+
+          <!-- LANGUAGES -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-gray-300">Languages</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/java.png" class="w-5 h-5 object-contain">
+
+                Java
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/c.png" class="w-5 h-5 object-contain">
+
+                C
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/html.png" class="w-5 h-5 object-contain">
+
+                HTML
+              </span>
+            </div>
 
 
+          </div>
+
+          <!-- TOOLS -->
+          <div>
+            <h3 class="text-xl font-semibold mb-4 text-gray-300">Tools</h3>
+            <div class="flex flex-wrap gap-3">
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/androidstud.png" class="w-5 h-5 object-contain">
+
+                Android Studio
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/netbeans.png" class="w-5 h-5 object-contain">
+
+                Apache Netbeans
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/vscode.png" class="w-5 h-5 object-contain">
+
+                Visual Studio Code
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/github.png" class="w-5 h-5 object-contain">
+
+                GitHub
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/postgresql.png" class="w-5 h-5 object-contain">
+
+                PostgreSQL
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/ssms.png" class="w-5 h-5 object-contain">
+
+                SQL Server Management Studio
+
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/mongodb.png" class="w-5 h-5 object-contain">
+
+                MongoDB
+              </span>
+
+              <span class="flex items-center gap-2 px-4 py-2 bg-gray-800 border border-gray-700 rounded-full text-sm 
+             hover:bg-white hover:text-black transition">
+
+                <img src="assets/git.png" class="w-5 h-5 object-contain">
+
+                Git
+            </div>
+          </div>
+
+
+
+        </div>
 
       </div>
 
-  </div>
-
-  </main>
+    </main>
 
   </div>
 
