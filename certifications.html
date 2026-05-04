@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Certifications</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,89 +25,93 @@
 
 </head>
 
-<body class="bg-black text-white">
+<body class="text-[#725349] font-sans bg-[#ffddbd]">
+
+  <!-- WRAPPER WITH BACKGROUND IMAGE -->
+  <div
+    class="min-h-screen bg-[url('assets/mybackground.png')] bg-scroll bg-cover bg-center flex items-center justify-center p-4 md:p-10">
+
+    <!-- OUTER BORDER-->
+    <div
+      class="w-full max-w-6xl min-h-[80vh] flex flex-col md:flex-row border-4 border-[#8c6551] rounded-2xl overflow-hidden bg-white/20 backdrop-blur-md shadow-2xl">
+
+      <!-- SIDEBAR -->
+      <aside
+        class="flex justify-center flex-col w-full md:w-1/3 lg:w-1/4 border-b-4 md:border-b-0 md:border-r-4 border-[#8c6551] p-8 ">
 
 
-  <!-- OUTER BORDER (entire layout) -->
-  <div class="min-h-screen border border-gray-700 m-10 rounded-lg md:m-10 flex flex-col md:flex-row">
-
-    <!-- SIDEBAR -->
-    <aside class="flex justify-center flex-col w-full md:w-1/3 lg:w-1/4 border-b md:border-b-0 md:border-r border-gray-700 p-8">
-      <!-- PROFILE (CENTERED) -->
-      <div class="flex flex-col items-center text-center">
-        <img src="assets/portrait.jpeg" class="w-39 h-40 object-cover rounded-full mb-4 border border-gray-600">
-        <h1 class="text-2xl font-bold">Gabrielle Louise Reynes</h1>
-        <p class="text-gray-400 text-sm mt-1">Future IT Professional</p>
-      </div>
-
-      <!-- CONTACT -->
-      <div class="text-sm text-gray-500 text-center">
-        <p>Contact details</p>
-      </div>
-
-    </aside>
-
-    <!-- MAIN CONTENT -->
-    <main class="flex-1 p-8 md:p-16">
-
-      <!-- NAV -->
-      <nav class="mb-10 border border-gray-700 rounded-lg p-4">
-          <ul class="flex flex-wrap justify-center gap-4 md:justify-start md:gap-10 items-center text-sm"> <!--EDIT-->
-          <li><a href="index.html" class="hover:text-gray-400 transition">Home</a></li>
-          <li><a href="about.html" class="hover:text-gray-400 transition">About</a></li> 
-          <li><a href="certifications.html" class="hover:text-gray-400 transition">Certifications</a></li>
-          <li><a href="tech-stack.html" class="hover:text-gray-400 transition">Tech Stack</a></li>
-        </ul>
-      </nav>
-
-      <!-- SECTION BORDER BOX -->
-      <div class="border border-gray-700 p-6 md:p-10 rounded-lg">
-
-        <h2 class="text-3xl mb-7 font-bold">Certifications</h2>
-
-        <!-- GRID -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <!-- PROFILE -->
+        <div class="flex flex-col items-center text-center ">
+          <img src="assets/portrait.png" class="w-60 h-70  mb-4">
+          <h1 class="text-2xl font-bold text-[#4a372d]">Gabrielle</h1>
+          <p class="text-[#5e4a3f] text-sm font-medium">Future IT Professional</p>
+          <p class="text-[#5e4a3f] text-sm font-medium">Contact</p>
+        </div>
 
 
-          <!-- CERTIFICATION 1-->
-          <div class="group overflow-hidden rounded-lg border border-gray-700">
+      </aside>
 
-            <a href="assets/cert1.png" data-lightbox="certifications">
-              <img src="assets/cert1.png"
-                class="w-full h-64 object-cover group-hover:scale-105 transition duration-500 cursor-pointer">
-            </a>
+      <!-- MAIN CONTENT -->
+      <main class="flex-1 p-8 md:p-16">
 
-            <p class="p-2 text-sm text-gray-400">
-              Cisco Python Essentials 1
-            </p>
+        <!-- NAV -->
+        <nav class="mb-10 border border-4 border-[#8c6551] p-4 rounded-lg">
+          <ul class="flex flex-wrap justify-center gap-4 md:justify-start md:gap-10 items-center text-sm">
+            <li><a href="index.html" class="hover:text-[#fa94c4] font-bold">Home</a></li>
+            <li><a href="about.html" class="hover:text-[#fa94c4] font-bold ">About</a></li>
+            <li><a href="certifications.html" class="hover:text-[#fa94c4] font-bold">Certifications</a></li>
+            <li><a href="tech-stack.html" class="hover:text-[#fa94c4] font-bold">Tech Stack</a></li>
+          </ul>
+        </nav>
 
-          </div>
+        <!-- SECTION BORDER BOX -->
+        <div class="border border-4 border-[#8c6551] p-6 md:p-10 rounded-lg">
 
-          <!-- CERTIFICATION 2-->
-          <div class="group overflow-hidden rounded-lg border border-gray-700">
+          <h2 class="text-3xl mb-7 hover:text-[#fa94c4] font-bold">Certifications</h2>
 
-            <a href="assets/cert2.jpg" data-lightbox="certifications">
-              <img src="assets/cert2.jpg"
-                class="w-full h-64 object-cover group-hover:scale-105 transition duration-500 cursor-pointer">
-            </a>
+          <!-- GRID -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
 
-            <p class="p-2 text-sm text-gray-400">
-              Cisco Software Engineering
-            </p>
+
+            <!-- CERTIFICATION 1-->
+            <div class="group overflow-hidden rounded-lg border border-[#8c6551]">
+
+              <a href="assets/cert1.png" data-lightbox="certifications">
+                <img src="assets/cert1.png"
+                  class="w-full h-64 object-cover group-hover:scale-105 transition duration-500 cursor-pointer">
+              </a>
+
+              <p class="p-2 text-sm font-bold">
+                Cisco Python Essentials 1
+              </p>
+
+            </div>
+
+            <!-- CERTIFICATION 2-->
+            <div class="group overflow-hidden rounded-lg border border-[#8c6551]">
+
+              <a href="assets/cert2.jpg" data-lightbox="certifications">
+                <img src="assets/cert2.jpg"
+                  class="w-full h-64 object-cover group-hover:scale-105 transition duration-500 cursor-pointer">
+              </a>
+
+              <p class="p-2 text-sm font-bold">
+                Cisco Software Engineering
+              </p>
+
+            </div>
 
           </div>
 
         </div>
 
-      </div>
+      </main>
 
-    </main>
-
-  </div>
+    </div>
 
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
 </body>
 
