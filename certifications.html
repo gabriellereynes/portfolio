@@ -37,15 +37,14 @@
 
       <!-- SIDEBAR -->
       <aside
-        class="flex justify-center flex-col w-full md:w-1/3 lg:w-1/4 border-b-4 md:border-b-0 md:border-r-4 border-[#8c6551] p-8 ">
+        class="hidden md:flex justify-center flex-col w-full md:w-1/3 lg:w-1/4 border-b-4 md:border-b-0 md:border-r-4 border-[#8c6551] p-8 ">
 
 
         <!-- PROFILE -->
         <div class="flex flex-col items-center text-center ">
           <img src="assets/portrait.png" class="w-60 h-70  mb-4">
           <h1 class="text-2xl font-bold text-[#4a372d]">Gabrielle</h1>
-          <p class="text-[#5e4a3f] text-sm font-medium">Future IT Professional</p>
-          <p class="text-[#5e4a3f] text-sm font-medium">Contact</p>
+          <p class="text-[#5e4a3f] text-sm font-semibold">Future IT Professional <br> Contact </p>
         </div>
 
 
@@ -67,36 +66,37 @@
         <!-- SECTION BORDER BOX -->
         <div class="border border-4 border-[#8c6551] p-6 md:p-10 rounded-lg">
 
-          <h2 class="text-3xl mb-7 hover:text-[#fa94c4] font-bold">Certifications</h2>
+          <h2 class="text-3xl mb-7 hover:text-[#fa94c4] font-bold truncate">Certifications</h2>
 
           <!-- GRID -->
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+          <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-6">
 
 
             <!-- CERTIFICATION 1-->
-            <div class="group overflow-hidden rounded-lg border border-[#8c6551]">
+            <div class="group rounded-lg border-4 border-dashed border-[#8c6551]">
 
-              <a href="assets/cert1.png" data-lightbox="certifications">
-                <img src="assets/cert1.png"
-                  class="w-full h-64 object-cover group-hover:scale-105 transition duration-500 cursor-pointer">
+              <a href="assets/certword.png" data-lightbox="certifications" class="block overflow-hidden rounded-t-lg">
+                <img src="assets/badgeword.png"
+                  class="w-full h-full bg-white/30 backdrop-blur-md object-contain group-hover:scale-105 transition duration-500 cursor-pointer">
               </a>
 
-              <p class="p-2 text-sm font-bold">
-                Cisco Python Essentials 1
+              <p class="p-2 text-sm font-bold text-center ">
+                Microsoft Office Specialist <br> Word Associate
               </p>
 
             </div>
 
-            <!-- CERTIFICATION 2-->
-            <div class="group overflow-hidden rounded-lg border border-[#8c6551]">
 
-              <a href="assets/cert2.jpg" data-lightbox="certifications">
-                <img src="assets/cert2.jpg"
-                  class="w-full h-64 object-cover group-hover:scale-105 transition duration-500 cursor-pointer">
+            <!-- CERTIFICATION 2-->
+            <div class="group overflow-hidden rounded-lg border-4 border-dashed border-[#8c6551]">
+
+              <a href="assets/certppt.png" data-lightbox="certifications" class="block overflow-hidden rounded-t-lg">
+                <img src="assets/badgeppt.png"
+                  class="w-full h-full bg-white/30 backdrop-blur-md object-contain group-hover:scale-105 transition duration-500 cursor-pointer">
               </a>
 
-              <p class="p-2 text-sm font-bold">
-                Cisco Software Engineering
+              <p class="p-2 text-sm font-bold text-center">
+                Microsoft Office Specialist <br> PowerPoint Associate
               </p>
 
             </div>
