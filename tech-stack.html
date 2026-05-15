@@ -21,6 +21,16 @@
       }
     }
   </script>
+  <style type="text/tailwindcss">
+    @layer components {
+      .tech-badge {
+        @apply flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white 
+               shadow-lg shadow-gray-700/50 rounded-full text-sm font-semibold 
+               transition duration-300 ease-in-out 
+               hover:bg-[#bf9795] hover:text-[#fededf] hover:scale-110;
+      }
+    }
+  </style>
 </head>
 
 <body class="text-[#725349] font-sans bg-[#ffddbd]">
@@ -75,47 +85,32 @@
             <!-- LANGUAGES -->
             <div>
               <h3 class="text-xl font-semibold mb-4 hover:text-[#fa94c4]">Languages</h3>
-              <div class="flex flex-wrap gap-3">
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+              <ul class="flex flex-wrap gap-3">
+                <li class="tech-badge">
                   <img src="assets/tech-stack/java.png" class="w-5 h-5 object-contain">
-
                   Java
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/c.png" class="w-5 h-5 object-contain">
-
                   C
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/html.png" class="w-5 h-5 object-contain">
-
                   HTML
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/css.png" class="w-5 h-5 object-contain">
-
                   CSS
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/javascript.png" class="w-5 h-5 object-contain">
-
                   JavaScript
-                </span>
-              </div>
+                </li>
+              </ul>
 
 
             </div>
@@ -123,71 +118,47 @@
             <!-- TOOLS -->
             <div>
               <h3 class="text-xl font-semibold mb-4 hover:text-[#fa94c4]">Tools</h3>
-              <div class="flex flex-wrap gap-3">
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+              <ul class="flex flex-wrap gap-3">
+                <li class="tech-badge">
                   <img src="assets/tech-stack/androidstud.png" class="w-5 h-5 object-contain">
-
                   Android Studio
-                </span>
+                </li>
               
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/vscode.png" class="w-5 h-5 object-contain">
-
                   VS Code
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/github.png" class="w-5 h-5 object-contain">
-
                   GitHub
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/apex.png" class="w-5 h-5 object-contain">
-
                   Oracle APEX
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/postgresql.png" class="w-5 h-5 object-contain">
-
                   PostgreSQL
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/ssms.png" class="w-5 h-5 object-contain">
-
                   SSMS
+                </li>
 
-                </span>
-
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/mongodb.png" class="w-5 h-5 object-contain">
-
                   MongoDB
-                </span>
+                </li>
 
-                <span class="flex items-center gap-2 px-4 py-2 bg-[#fededf] border border-white shadow-lg shadow-gray-700/50 rounded-full text-sm 
-             hover:bg-[#bf9795] hover:text-[#fededf] font-semibold transition duration-300 ease-in-out hover:scale-110">
-
+                <li class="tech-badge">
                   <img src="assets/tech-stack/git.png" class="w-5 h-5 object-contain">
-
                   Git
-              </div>
+                </li>
+              </ul>
             </div>
 
 
