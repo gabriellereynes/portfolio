@@ -1,0 +1,19 @@
+.tech-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem; 
+    background-color: #fededf;
+    border: 1px solid white;
+    border-radius: 9999px; 
+    font-size: 0.875rem; 
+    font-weight: 600; 
+    box-shadow: 0 10px 15px -3px rgba(55, 65, 81, 0.5); 
+    transition: all 0.3s ease-in-out;
+}
+
+.tech-badge:hover {
+    background-color: #bf9795;
+    color: #fededf;
+    transform: translateY(-4px) scale(1.1);
+}
